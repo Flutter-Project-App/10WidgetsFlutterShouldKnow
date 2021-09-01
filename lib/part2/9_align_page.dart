@@ -14,6 +14,10 @@ class AlignPage extends StatefulWidget {
 class _AlignPageState extends State<AlignPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Align Example'),
+      ),
+    );
   }
 }

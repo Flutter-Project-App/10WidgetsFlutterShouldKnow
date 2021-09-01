@@ -14,6 +14,10 @@ class PositionedPage extends StatefulWidget {
 class _PositionedPageState extends State<PositionedPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Positioned Example'),
+      ),
+    );
   }
 }

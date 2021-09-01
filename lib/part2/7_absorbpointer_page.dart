@@ -14,6 +14,10 @@ class AbsorbPointerPage extends StatefulWidget {
 class _AbsorbPointerPageState extends State<AbsorbPointerPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Absorbpointer Example'),
+      ),
+    );
   }
 }

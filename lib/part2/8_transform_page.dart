@@ -14,6 +14,10 @@ class TransformPage extends StatefulWidget {
 class _TransformPageState extends State<TransformPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Transform Example'),
+      ),
+    );
   }
 }

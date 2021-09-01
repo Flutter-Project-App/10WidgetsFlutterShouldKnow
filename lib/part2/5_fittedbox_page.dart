@@ -13,6 +13,10 @@ class FittedBoxPage extends StatefulWidget {
 class _FittedBoxPageState extends State<FittedBoxPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('FittedBox Example'),
+      ),
+    );
   }
 }

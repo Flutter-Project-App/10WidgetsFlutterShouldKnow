@@ -14,6 +14,10 @@ class LayoutBuilderPage extends StatefulWidget {
 class _LayoutBuilderPageState extends State<LayoutBuilderPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('LayoutBuilder Example'),
+      ),
+    );
   }
 }
